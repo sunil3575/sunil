@@ -1,0 +1,68 @@
+
+.btn{
+    color: black !important;
+    font-size: large;
+    margin-bottom: 30px;
+    background-color: white !important;
+    padding: 5px !important;   
+}
+.btn:hover {
+background: blue !important    ;
+color: white !important;
+font-size:medium !important;
+/* border: 1px solid orangered; */
+}
+.name{
+    outline: none !important;
+    box-shadow: none !important;
+    
+}
+
+.name:hover{
+    border: 1px solid blue !important;
+    
+}
+.focus:hover{
+    border: 1px solid blue !important;
+    color: white; 
+}
+.focus{
+  
+    resize: none;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.Contact_heading{
+    font-size:x-large !important;
+    margin-bottom: 30px !important;
+    margin-top: 50px !important;
+    color: #5086e1bf !important;
+}
+.map_location{
+    margin-bottom: 50px !important;
+}
+@media (min-width:320px) and (max-width:675px)
+{
+    .form_container{
+          width: 100% !important;
+          display: flex !important;
+          flex-direction: column !important;
+          font-size: small;
+    }
+    .Contact_heading{
+        font-size:15px !important;
+    }
+    .btn{
+        font-size:x-small !important;
+    }
+    .map_location{
+        margin-left: 12px;
+    }
+    .column10{
+        margin-left: 12px;
+    }
+
+}
+
+
+

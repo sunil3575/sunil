@@ -1,0 +1,19 @@
+.card-img-overlay
+{
+   text-align:left;
+   margin-left: 50px;
+   margin-top:50px;
+    position: absolute;
+    color: rgb(5, 5, 5);
+}   
+.card-img-bottom{
+    position: relative;
+    color: rgb(180, 167, 200);
+   
+}
+@media (min-width:320px) and (max-width:1024px) {
+    .slider_image{
+        width:100% !important;
+        height:300px !important;
+    }
+}

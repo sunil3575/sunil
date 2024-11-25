@@ -1,0 +1,107 @@
+.about_image{
+    height: 350px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left:25px;
+    border-radius: 10%;
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px, rgba(10, 37, 64, 0.15) 0px -2px 6px 0px inset;
+}
+.about_paragraph{
+    margin-top: 50px;
+    font-size: large;
+    text-align: justify;
+    font-weight: 500px;
+    line-height: 2;    
+    margin-left: 0.50rem;
+    margin-right: 0.50rem;   
+}
+.about_paragraph h3{
+    color: #5086e1bf !important;
+}
+
+.about_resume{
+    font-size: larger;
+    text-decoration: none !important;
+    text-align: center !important;
+    color:green !important;
+    font-weight: bolder!important;
+    padding: 20px;
+   font-family: 'Times New Roman', Times, serif !important;
+}
+.third_about_row{
+    margin-bottom: 50px;
+}
+.second_about_heading{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color:#5086e1bf ;
+}
+.second_about_progress{
+    font-size:medium !important;
+}
+ .third_about_row{  
+    margin-top: 50px !important;
+    text-align: center;
+    height:100px;
+    width: 100%;
+    margin-left:0.01rem !important;
+   
+}
+.third_about_column{
+    background-color:#5086e1bf!important;
+    color: white!important;
+   
+    padding-top: 20px; 
+    
+} 
+
+@media (min-width:320px) and (max-width:430px) {
+    .about_paragraph {
+        font-size:small;
+    }
+    .about_row{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .about_image{
+        height: 300px;
+        width: 250px;
+        
+    }
+}
+@media (max-width:768px) {
+
+.about_paragraph{
+    line-height:1.3!important;
+}
+.about_image{
+    height: 500px!important;
+    width: 250px  !important;
+    
+}
+.about_paragraph {
+    font-size:medium;
+}
+}
+@media (max-width:1024px) {
+
+    .about_paragraph{
+        line-height:1.4!important;
+    }
+    .about_image{
+        height: 300px  !important;
+        width: 250px  !important;
+        
+    }
+    .about_paragraph {
+        font-size:medium;
+        
+    }
+    }
+
+@media (min-width:320px) and (max-width:426px) {
+    .third_about_heading{
+        font-size: small;
+
+    }
+}

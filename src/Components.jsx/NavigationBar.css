@@ -1,0 +1,90 @@
+
+.brand{
+    color:white !important;
+    margin-left: 50px;
+    font-size:x-large !important;
+}
+
+
+
+.nav_link{
+    color:white!important;
+    padding: 20px !important;
+    font-size:x-large !important;
+    gap: 100px !important;
+
+}
+
+.nav_link1:hover{
+    /* background-color:rgb(76, 74, 74); */
+    /* background-color:white; */
+    color:rgb(175, 175, 130)!important;
+    border-radius:10px;
+}
+.nav_link:hover{
+    /* background-color:rgb(76, 74, 74); */
+    /* background-color:white; */
+    color:black!important;
+    border-radius:10px;
+}
+
+    .twitter{
+        font-size:35px !important;
+        padding: 5px;
+        margin-right: 5px;
+    }
+    .twitter:hover{
+        background-color:black;
+             color:white;
+             border-radius: 20%;
+        
+    }
+    
+     .instagram{
+        font-size:35px !important;
+        padding: 5px;
+        margin-right: 5px;   
+    }
+    .instagram:hover{
+        background: linear-gradient(#f09433,#e6683c,#dc2743, #cc2366,#bc1888) !important; 
+        color: white;
+        border:none;
+        border-radius:20%;    
+    }
+    .facebook{
+        font-size:35px!important;
+        padding: 5px;
+        margin-right: 5px;
+       
+    }
+    .facebook:hover{
+        color:white !important;
+        background-color:#4267B2;
+        border-radius:20% !important;
+        
+    
+    }  
+   
+.navbar_part{
+    background:#5086e1bf !important;
+}
+.mx-auto{
+    width: 100% !important;
+}
+.toggle{
+    font-size: small !important;
+    margin-right: 30px !important;
+    color: white !important;
+    background-color: white  !important;
+}
+.second_navbar_icon{
+    padding-left: 20px !important;
+   
+    
+}
+
+Image{
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 50% !important;
+}

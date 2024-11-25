@@ -1,0 +1,20 @@
+
+.meme_pics{
+    width: 100% !important;
+    height: 400px !important;
+    margin-bottom: 30px !important;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.meme_heading{
+font-size: xx-large;
+color: blue;
+margin-top: 30px;
+text-align: center;
+
+}
+.meme_paragraph{
+text-align: justify;
+font-weight: 800px;
+line-height: 2;
+}
