@@ -12,7 +12,8 @@ import photo from './logo_photo/logo1.jpg'
 const NavigationBar = () => {
   return (
         <Navbar  expand="lg" className="navbar_part" sticky='top'>
-        <Navbar.Brand className='brand' href="/home"><Image src={photo} height="60px" width="60px" style={{borderRadius:"50%"}} /></Navbar.Brand>
+          <Container>
+        <Navbar.Brand className='brand' href="/home"><Image src={photo} height="70px" width="70px" style={{borderRadius:"50%",float:"left"}} /></Navbar.Brand>
         <Navbar.Toggle className='toggle' aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='collapse'>
         <Nav className="m-auto">
@@ -35,6 +36,7 @@ const NavigationBar = () => {
     <a href="https://www.instagram.com/" target='_blank' style={{color:"white"}}><FaInstagram className='instagram'/></a>
     </Nav>
     </Navbar.Collapse>
+    </Container>
     </Navbar>
   )
 }

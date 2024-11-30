@@ -22,8 +22,8 @@ const About = () => {
       <Col className='about_column'>
       <p className='about_paragraph'><h3>Meet Sunil ,</h3><br/>
 
-Hey there 👋, thank you for visiting my page. My name is <b>Sunil Pangeni</b> and I enjoy 
-solving problems writing code. I completed a <b>Master of Computer Application</b> degree.
+Hey there 👋, thank you for visiting my page. My name is Sunil Pangeni and <b> I'am a front-End developer.</b> I enjoy 
+solving problems writing code. I completed a <b>Master of Computer Application (MCA)</b>.
 Development has been a passion of mine ever since
  I was a young kid who was influenced by my uncle and brother who are also developers. 
  Nowadays, I continue to challenge myself by learning and applying it to solve complex problems. 

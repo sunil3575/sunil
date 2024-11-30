@@ -11,15 +11,15 @@ const Footer = () => {
     <Row className='footer_row'>
       
      <h5 className='footer_contact'>Contact :</h5>
-        <Col className='footer_column'>
-        <i class="fa-solid fa-location-dot footer_location" style={{color:"red"}}></i><span className='footer_location_info' style={{color:"black"}}> Sudhodhan Gaupalika  Word-03, Charpata.</span>
-        </Col>
-        <Col >
-        <i class="fa-solid fa-phone footer_phone" style={{color:"green"}}></i><span className='footer_phone_info' style={{color:"black"}}> 977-9865451246 </span>
-        </Col>
-        <Col >
-        <i class="fa-solid fa-envelope footer_mail" style={{color:"blue"}}></i><span className='footer_mail_info' style={{color:"black"}}> SunilPangeni3570@gmail.com </span>
-        </Col>
+        <Row className='footer_row'>
+        <span className='footer_location_info'><i class="fa-solid fa-location-dot footer_location" style={{color:"red"}}></i> Sudhodhan Gaupalika  Word-03, Charpata.</span>
+        </Row>
+        <Row className='footer_row'>
+        <span className='footer_phone_info'><i class="fa-solid fa-phone footer_phone" style={{color:"green"}}></i> 977-9865451246 </span>
+        </Row>
+        <Row className='footer_row'>
+        <span className='footer_mail_info'><i class="fa-solid fa-envelope footer_mail" style={{color:"blue"}}></i> SunilPangeni3570@gmail.com </span>
+        </Row>
         
         {/* <Col className='footer_location10'>
         <i class="fa-solid fa-location-dot footer_icon1" style={{color:"red"}}></i><span className='footer_location_info' style={{color:"black"}}> Sudhodhan Gaupalika  Word-03, Charpata.</span>
